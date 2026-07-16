@@ -7,7 +7,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Skill from "./components/skills/skills";
 import Experience from "./components/experience/Experience";
-// import project from "./components/project/project";
+import Project from "./components/project/Project";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -37,8 +39,9 @@ function App() {
         <Hero darkMode={darkMode} />
         <Skill darkMode={darkMode} />
         <Experience darkMode={darkMode} />
-        <project darkMode={darkMode} />
-        
+        <Project darkMode={darkMode} />
+        <Contact darkMode={darkMode} />
+        <Footer darkMode={darkMode} />
       </div>
     </>
   );
