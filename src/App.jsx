@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Skill from "./components/skills/skills";
 import Experience from "./components/experience/Experience";
-import Project from "./components/project/Project";
+import Project from "./components/project/project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
