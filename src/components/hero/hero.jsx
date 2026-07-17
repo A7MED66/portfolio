@@ -45,7 +45,16 @@ export default function Hero({ darkMode })  {
             />
 
             <h1 className={`title-font text-4xl sm:text-5xl ${colors.text} mb-4 font-bold`}>
-              Hi! I'm <span className={colors.subText}>Ahmed Ragheb</span>
+              Hi! I'm{" "}
+              <span
+                className={
+                  darkMode
+                    ? "text-gray-950 md:text-orange-400"
+                    : "text-gray-950 md:text-orange-500"
+                }
+              >
+                Ahmed Ragheb
+              </span>
             </h1>
 
             <p className={`mb-8 leading-relaxed ${colors.para} max-w-lg`}>
