@@ -25,11 +25,11 @@ export default function Experience({ darkMode }) {
 
       <div className="max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center gap-12">
 
-        {/* Left Side */}
+        {/* Left Side - hidden on mobile, visible from md up */}
         <div
           data-aos="fade-right"
           data-aos-delay="500"
-          className="w-full md:w-1/2 flex justify-center"
+          className="hidden md:flex md:w-1/2 justify-center"
         >
           <div className="relative">
             <div
